@@ -1,0 +1,2 @@
+rootProject.name = "sungshin3F"
+include ':app'

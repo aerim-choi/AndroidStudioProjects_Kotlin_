@@ -1,0 +1,2 @@
+rootProject.name = "Basic3"
+include ':app'

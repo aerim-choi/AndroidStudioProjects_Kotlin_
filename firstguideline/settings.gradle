@@ -1,0 +1,2 @@
+rootProject.name = "firstguideline"
+include ':app'

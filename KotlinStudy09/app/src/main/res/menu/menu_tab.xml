@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tap1"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="현재상영"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/tap2"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="예매순"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/tap3"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="영화관"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/tab4"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="즐겨찾기"
+        app:showAsAction="ifRoom" />
+</menu>

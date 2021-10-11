@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+<!--        사각형 테두리 만들기-->
+        <shape android:shape="rectangle">
+<!--            사각형 테두리 선(stroke)는 1dp이고 color는 #FB5A1B-->
+            <stroke android:width="1dp"
+                android:color="#FB5A1B">
+            </stroke>
+<!--            사각형 안의 색(=면:solid)은 투명으로 -->
+            <solid android:color="#00000000"></solid>
+        </shape>
+    </item>
+<!--    위,아래, 좌우 1dp씩 추가 -->
+    <item android:top="1dp" android:bottom="1dp" android:right="1dp" android:left="1dp">
+        <shape android:shape="rectangle">
+            <stroke android:width="3dp"
+                android:color="@color/teal_200">
+            </stroke>
+            <solid android:color="#00000000"></solid>
+        </shape>
+    </item>
+</layer-list>
